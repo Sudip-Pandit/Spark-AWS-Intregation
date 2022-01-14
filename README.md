@@ -19,7 +19,30 @@ This repository gives a clear understanding of spark and AWS integration.
  
  ![image](https://user-images.githubusercontent.com/70854976/149558384-fccbdee3-2f91-45d6-af09-aeaf9ed6e4ef.png)
 
+# Practice-1
 
+     Step1 ---- Download the AWS jars
+     Step2 ---- Add those jars to Build path
+     Step3 ----Configure spark session with Access key and secret key
+     
+          val spark = SparkSession.builder()
+          .config("fs.s3a.access.key","")
+          .config("fs.s3a.secret.key","")
+          .getOrCreate()
+      
+      import spark.implicits._
+      
+      Step4 ---- Read data from the S3 Bucket
+      
+           val df = spark.read.format("csv").option("header","true")
+           .load("s3a://Superstore1/Sudip_data.csv")
+           
+      Step 5 ---- Write the data to folder Sudip_Output
+      
+           df.write.format("com.databricks.spark.avro").mode("overwrite")
+           .save("s3a://Superstore2/output/Sudip_Output")
+           
+           
  
  
  
