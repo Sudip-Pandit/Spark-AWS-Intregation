@@ -9,7 +9,7 @@ This repository gives a clear understanding of spark and AWS integration.
  
  # Read data from S3
  
- ![image](https://user-images.githubusercontent.com/70854976/149556862-ce1ad3d6-c588-4ef7-a61e-20073188d3e9.png)
+ ![image](https://user-images.githubusercontent.com/70854976/149558749-6f2abade-10bf-46f8-808a-8070eccb9ecf.png)
  
  # Write data
  
