@@ -16,6 +16,11 @@ This repository gives a clear understanding of spark and AWS integration.
  # Write data
  
  ![image](https://user-images.githubusercontent.com/70854976/149557352-5f1ea03d-f210-441c-8374-b7c23910e3c2.png)
+ 
+ # Code
+ 
+ ![image](https://user-images.githubusercontent.com/70854976/149558384-fccbdee3-2f91-45d6-af09-aeaf9ed6e4ef.png)
+
 
  
  
