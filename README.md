@@ -6,4 +6,6 @@ This repository gives a clear understanding of spark and AWS integration.
  1. Excess key and secret key of AWS
  2. Spark need AWS jars (AWS Spark Jars)
  3. Pass the excess key and secret key to the SparkSession
- 4. 
+ ![image](https://user-images.githubusercontent.com/70854976/149555105-be516feb-73ad-4994-a019-f2d1a6f10700.png)
+
+ 
